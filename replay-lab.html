@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>replay lab</title>
+    <!-- The spectate screen alone (src/replay/lab.ts): ?file=<url of an .mcr> -->
+    <style>
+      html,body{margin:0;height:100%;background:#111;color:#ddd;font:12px ui-monospace,Menlo,monospace}
+      body{display:grid;grid-template-rows:1fr auto}
+      #screen{min-height:0}
+      #bar{display:flex;gap:8px;align-items:center;padding:6px 8px;flex-wrap:wrap}
+      #scrub{flex:1;min-width:200px}
+      button{font:inherit}
+      button[aria-pressed=true]{outline:2px solid #6cf}
+    </style>
+  </head>
+  <body>
+    <div id="screen"></div>
+    <div id="bar">
+      <button id="play">Play</button>
+      <select id="speed"><option>0.25</option><option>0.5</option><option selected>1</option><option>2</option><option>4</option><option>8</option></select>
+      <input type="range" id="scrub" min="0" max="0" value="0">
+      <span id="clock">0</span>
+      <span id="players"></span>
+    </div>
+    <script type="module" src="/src/replay/lab.ts"></script>
+  </body>
+</html>

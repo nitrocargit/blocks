@@ -1,0 +1,217 @@
+{
+ "files": {
+  "../gui-items.json": {
+   "bytes": 48904,
+   "sha256": "fe61688c67293c884dcf57f80ba2ea3ee10c565b8992695e576a42fd54fc5604",
+   "source": "catalog+items.json+foundation+jar/pack models"
+  },
+  "block/amethyst_block.png": {
+   "bytes": 200,
+   "sha256": "4bc639e59f17e7e2ed849669e064b5a8a34ba07d04bfd6ae1250ec06acaae631",
+   "source": "pack"
+  },
+  "block/black_concrete.png": {
+   "bytes": 133,
+   "sha256": "d52d2e4dc839327c7ce5b2c0067ac88fb6d19cfe3eb70cc29be3ab6dfa9d28c0",
+   "source": "pack"
+  },
+  "block/blue_concrete.png": {
+   "bytes": 203,
+   "sha256": "366cde655422d5d6ae30825b7a4daa94ba0638837dfea498db853ae186db2f1a",
+   "source": "pack"
+  },
+  "block/brown_concrete.png": {
+   "bytes": 182,
+   "sha256": "fab7599891fb8aa2b469f06973cc0e183e70f42dff210722929885346e1276ec",
+   "source": "pack"
+  },
+  "block/copper_block.png": {
+   "bytes": 213,
+   "sha256": "0eadea7e3e5a2edb26ddd9fa5c86b2055d021b0a55fc2cc14a66c3e484d094b8",
+   "source": "pack"
+  },
+  "block/cyan_concrete.png": {
+   "bytes": 198,
+   "sha256": "3bdf767e6d6016b0a985a8e2f3142250e06bff7ad4b9c06af7692f9a20756877",
+   "source": "pack"
+  },
+  "block/dark_prismarine.png": {
+   "bytes": 645,
+   "sha256": "bf3e5d473f5178c1d60151e035d78ad130a4978a4006ead1a93100f884582dc1",
+   "source": "pack"
+  },
+  "block/diamond_block.png": {
+   "bytes": 198,
+   "sha256": "82ddb6ef5e5caf6ad410fcd1a7cbf6dac59f5830c419f1512edc1e959d0d483d",
+   "source": "pack"
+  },
+  "block/end_stone.png": {
+   "bytes": 184,
+   "sha256": "150f58416b6940b15f2e471e6f1920209f6a46affc0e8c7e2a41ac055c3548d4",
+   "source": "pack"
+  },
+  "block/exposed_copper.png": {
+   "bytes": 269,
+   "sha256": "bdf51ff563a554338f6540b76a863f1767130f0210ed477cc51b9cd991728d22",
+   "source": "pack"
+  },
+  "block/gold_block.png": {
+   "bytes": 202,
+   "sha256": "22e70d72fab6f1191a8e2242593f918d3faedf7f97eecb22c38b2b2554c921e2",
+   "source": "pack"
+  },
+  "block/gray_concrete.png": {
+   "bytes": 185,
+   "sha256": "e438e243d4cb104a9258bae5b3dd462e61b6ca931a4b9d3995ad1a30fe9d13d2",
+   "source": "pack"
+  },
+  "block/green_concrete.png": {
+   "bytes": 190,
+   "sha256": "cfac3ffc078eee08b60992b5b8c413ea3159c0ae5ebc49eab3d73b42577812e6",
+   "source": "pack"
+  },
+  "block/iron_block.png": {
+   "bytes": 206,
+   "sha256": "ae05028fce8ab3dd97246fbb88e652a21d64e54732477dcec1d0188c4255ec2e",
+   "source": "pack"
+  },
+  "block/light_blue_concrete.png": {
+   "bytes": 197,
+   "sha256": "fc279e889394902bab6880137ed9a4aa2f3452c9f0723da1554e9d9c268cb292",
+   "source": "pack"
+  },
+  "block/light_gray_concrete.png": {
+   "bytes": 238,
+   "sha256": "f9e94b095c1476db3e86dec86d767599132368ccf8f02b488e4c589877baf7cc",
+   "source": "pack"
+  },
+  "block/lime_concrete.png": {
+   "bytes": 210,
+   "sha256": "eed0b67912a87d4d54fa8552f15b82d2d7ee311a6fee10e6aeb5e32615a2be3a",
+   "source": "pack"
+  },
+  "block/magenta_concrete.png": {
+   "bytes": 217,
+   "sha256": "f781371e3e732a7424022f9f4a1973d2b710227465cf775ee9f722b01193f185",
+   "source": "pack"
+  },
+  "block/oak_planks.png": {
+   "bytes": 200,
+   "sha256": "275c8d25b28eea48c862ad7539690060c0693881e4becd9de0b1398b165ab1b2",
+   "source": "pack"
+  },
+  "block/obsidian.png": {
+   "bytes": 181,
+   "sha256": "da2885796ccd1bbbff2a9c252336b5e971d6ead0dcf5a7171a4e81228e6cb011",
+   "source": "pack"
+  },
+  "block/orange_concrete.png": {
+   "bytes": 169,
+   "sha256": "d856a7c79ab64e89bc8dab0c4cb3219c55385ceb9ab3b80b1e80abdd579b5929",
+   "source": "pack"
+  },
+  "block/ours/banner_cloth.png": {
+   "bytes": 203,
+   "sha256": "cff91fa4e76b333828e72bf7f0903e99b99a98af5b016a222386adae51c570e2",
+   "source": "ours"
+  },
+  "block/ours/head_dragon.png": {
+   "bytes": 315,
+   "sha256": "d843e43ea8cfaebbd961f77fed4debb547ae6475b20c0055f0e3cff3e1d612e1",
+   "source": "ours"
+  },
+  "block/ours/head_piglin.png": {
+   "bytes": 412,
+   "sha256": "9114530500d9af18516a4b0e5c92247ff2b413e799c0aa262452010c61179497",
+   "source": "ours"
+  },
+  "block/ours/head_player.png": {
+   "bytes": 382,
+   "sha256": "6d1ad89f17a6ab8c7f054307a66c707170fb6287ca8207b9d17fcfb39b747f39",
+   "source": "ours"
+  },
+  "block/ours/head_skeleton.png": {
+   "bytes": 321,
+   "sha256": "5d2d75dcc3fd5b41320777a2451e63f1b91b30abe0adcddc51080d2fe7134b6b",
+   "source": "ours"
+  },
+  "block/ours/head_wither_skeleton.png": {
+   "bytes": 315,
+   "sha256": "d843e43ea8cfaebbd961f77fed4debb547ae6475b20c0055f0e3cff3e1d612e1",
+   "source": "ours"
+  },
+  "block/ours/head_zombie.png": {
+   "bytes": 412,
+   "sha256": "9114530500d9af18516a4b0e5c92247ff2b413e799c0aa262452010c61179497",
+   "source": "ours"
+  },
+  "block/oxidized_copper.png": {
+   "bytes": 220,
+   "sha256": "0a0d1f9acbd97f14010147eced07c0e4de5561cbe5909af7bd92cf74f53087d7",
+   "source": "pack"
+  },
+  "block/pink_concrete.png": {
+   "bytes": 218,
+   "sha256": "79627011cd1c48bbf1e512b398826e63bc89a3c80595ae222da6d2a99c51f15b",
+   "source": "pack"
+  },
+  "block/prismarine.png": {
+   "bytes": 2728,
+   "sha256": "fe0c1f81b1befaef4622a5f80ecab1cfdb2253c37e0e7b30bdab277bff22f7f3",
+   "source": "pack"
+  },
+  "block/purple_concrete.png": {
+   "bytes": 246,
+   "sha256": "5a845604092e316ef8b125b0e408c7af71d2169deb5036dbb5da0df31ded0c37",
+   "source": "pack"
+  },
+  "block/purpur_block.png": {
+   "bytes": 135,
+   "sha256": "e38d6535165894b0a33a7c87ed7bd2404af2af759d7d025aa86327f878f165af",
+   "source": "pack"
+  },
+  "block/red_concrete.png": {
+   "bytes": 178,
+   "sha256": "e0ab3eddc699d864ef726ef3e86eb611f344de053461bfa7a3c598ba65f318ef",
+   "source": "pack"
+  },
+  "block/redstone_block.png": {
+   "bytes": 198,
+   "sha256": "b21eef0cd009c62b1e023feb4eea2980b247ba28afd40e28e6c8f0bd48da65ff",
+   "source": "pack"
+  },
+  "block/stripped_oak_log.png": {
+   "bytes": 554,
+   "sha256": "d0f90b528888fe5df7247ab0590d536a71705e7fb4989a7ea73f8e60b91239f6",
+   "source": "pack"
+  },
+  "block/weathered_copper.png": {
+   "bytes": 269,
+   "sha256": "82d1d3dae99c4070c10a50cb915548bd2b918bce7c6e5474267683d5b708c05f",
+   "source": "pack"
+  },
+  "block/white_concrete.png": {
+   "bytes": 177,
+   "sha256": "068aea3f1e07b895d592e0130281ef4690eaa45f3305b4f21fcf4bca9dab123c",
+   "source": "pack"
+  },
+  "block/yellow_concrete.png": {
+   "bytes": 177,
+   "sha256": "0f3311754116a439afb04e3f51e0eedf76affad7c4888cda8a80f2730c628dfa",
+   "source": "pack"
+  }
+ },
+ "inputs": {
+  "client/app/public/assets/items.json": "d256b1bcab542ce30a6b51b0cbf11e1d2641db7efd3f5ca3f9ee20a72e133d33",
+  "content/native-26.2/foundation.json.gz": "d9e6f8c2abab4dcf21ce15f9647481e9ed65d5405ee835ff8057032387a8a4f2",
+  "target/assets-cache/ours/special-meshes.json": "fbe4a73260a6edd7699a0aa94995737b388f0ab5bbda407e4d9c519d636171a9"
+ },
+ "jar": {
+  "path": "/Users/ori/Library/Application Support/minecraft/versions/26.2/26.2.jar",
+  "sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754"
+ },
+ "pack": {
+  "path": "/Users/ori/mineshaft-assets/target/assets-cache/vox-pack.zip",
+  "sha256": "b51fd0b9b0bf1f0f22448e2d227a903c880f2af678474ec212088b736d8a0da2"
+ }
+}

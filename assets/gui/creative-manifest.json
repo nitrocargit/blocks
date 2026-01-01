@@ -1,0 +1,191 @@
+{
+ "files": {
+  "container/creative_inventory/tab_inventory.png": {
+   "bytes": 12643,
+   "sha256": "9d1b0482783645f0a8661855157a996f23a88882d4cdd4fffbf1ddedd237b3e1",
+   "source": "pack"
+  },
+  "container/creative_inventory/tab_item_search.png": {
+   "bytes": 11461,
+   "sha256": "5c2f0ecbbdbb4c347851942af24f4095870b7a16d4357f83240610f97ecf39ca",
+   "source": "pack"
+  },
+  "container/creative_inventory/tab_items.png": {
+   "bytes": 11257,
+   "sha256": "4d363874b3172848db67e55e976fb4b268535d625c79e73eb81bf603d7686efb",
+   "source": "pack"
+  },
+  "creative-lang.json": {
+   "bytes": 3430,
+   "sha256": "6e7ad1ee250395d4461250c96f7246d4a42a54549de7888f990fcd4bc382a423",
+   "source": "free+pack lang"
+  },
+  "creative-tabs.json": {
+   "bytes": 306142,
+   "sha256": "a86ef0c2d87ca8c0d3efc9c6315aa9de3db0e984e64ca52bbb70e65b34b37e1a",
+   "source": "trace ctabs + free lang"
+  },
+  "sprites/container/creative_inventory/scroller.png": {
+   "bytes": 937,
+   "sha256": "f12b550888b03bfa4d39a7783f31c463c01ea552ecf779c04849403c5b76091f",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/scroller_disabled.png": {
+   "bytes": 938,
+   "sha256": "306bf6d676ad34107d32271889ae13a0919932e44dae2e93311f4e37fce11731",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_selected_1.png": {
+   "bytes": 918,
+   "sha256": "63b65ed2bb3032d73d7e697f5c4c1ee33eba44bb6cf4b3b856c34a2d11271c68",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_selected_2.png": {
+   "bytes": 918,
+   "sha256": "63b65ed2bb3032d73d7e697f5c4c1ee33eba44bb6cf4b3b856c34a2d11271c68",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_selected_3.png": {
+   "bytes": 918,
+   "sha256": "63b65ed2bb3032d73d7e697f5c4c1ee33eba44bb6cf4b3b856c34a2d11271c68",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_selected_4.png": {
+   "bytes": 918,
+   "sha256": "63b65ed2bb3032d73d7e697f5c4c1ee33eba44bb6cf4b3b856c34a2d11271c68",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_selected_5.png": {
+   "bytes": 918,
+   "sha256": "63b65ed2bb3032d73d7e697f5c4c1ee33eba44bb6cf4b3b856c34a2d11271c68",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_selected_6.png": {
+   "bytes": 918,
+   "sha256": "63b65ed2bb3032d73d7e697f5c4c1ee33eba44bb6cf4b3b856c34a2d11271c68",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_selected_7.png": {
+   "bytes": 918,
+   "sha256": "63b65ed2bb3032d73d7e697f5c4c1ee33eba44bb6cf4b3b856c34a2d11271c68",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_unselected_1.png": {
+   "bytes": 918,
+   "sha256": "c1b5be67ea4ba33664faca728bf7639fcfef2c803c269cd463c8a14b87847d7c",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_unselected_2.png": {
+   "bytes": 918,
+   "sha256": "c1b5be67ea4ba33664faca728bf7639fcfef2c803c269cd463c8a14b87847d7c",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_unselected_3.png": {
+   "bytes": 918,
+   "sha256": "c1b5be67ea4ba33664faca728bf7639fcfef2c803c269cd463c8a14b87847d7c",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_unselected_4.png": {
+   "bytes": 918,
+   "sha256": "c1b5be67ea4ba33664faca728bf7639fcfef2c803c269cd463c8a14b87847d7c",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_unselected_5.png": {
+   "bytes": 918,
+   "sha256": "c1b5be67ea4ba33664faca728bf7639fcfef2c803c269cd463c8a14b87847d7c",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_unselected_6.png": {
+   "bytes": 918,
+   "sha256": "c1b5be67ea4ba33664faca728bf7639fcfef2c803c269cd463c8a14b87847d7c",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_bottom_unselected_7.png": {
+   "bytes": 918,
+   "sha256": "c1b5be67ea4ba33664faca728bf7639fcfef2c803c269cd463c8a14b87847d7c",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_selected_1.png": {
+   "bytes": 921,
+   "sha256": "807e52b13c79b99dd0696fea612315e2ed5866c4f5a63c3cedd6e04263546de6",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_selected_2.png": {
+   "bytes": 921,
+   "sha256": "807e52b13c79b99dd0696fea612315e2ed5866c4f5a63c3cedd6e04263546de6",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_selected_3.png": {
+   "bytes": 921,
+   "sha256": "807e52b13c79b99dd0696fea612315e2ed5866c4f5a63c3cedd6e04263546de6",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_selected_4.png": {
+   "bytes": 921,
+   "sha256": "807e52b13c79b99dd0696fea612315e2ed5866c4f5a63c3cedd6e04263546de6",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_selected_5.png": {
+   "bytes": 921,
+   "sha256": "807e52b13c79b99dd0696fea612315e2ed5866c4f5a63c3cedd6e04263546de6",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_selected_6.png": {
+   "bytes": 921,
+   "sha256": "807e52b13c79b99dd0696fea612315e2ed5866c4f5a63c3cedd6e04263546de6",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_selected_7.png": {
+   "bytes": 921,
+   "sha256": "807e52b13c79b99dd0696fea612315e2ed5866c4f5a63c3cedd6e04263546de6",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_unselected_1.png": {
+   "bytes": 924,
+   "sha256": "73a0149f63f6a04f9855f1eaec056ba8d8cfab066d8e3f53af35f97c222da8cc",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_unselected_2.png": {
+   "bytes": 924,
+   "sha256": "73a0149f63f6a04f9855f1eaec056ba8d8cfab066d8e3f53af35f97c222da8cc",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_unselected_3.png": {
+   "bytes": 924,
+   "sha256": "73a0149f63f6a04f9855f1eaec056ba8d8cfab066d8e3f53af35f97c222da8cc",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_unselected_4.png": {
+   "bytes": 924,
+   "sha256": "73a0149f63f6a04f9855f1eaec056ba8d8cfab066d8e3f53af35f97c222da8cc",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_unselected_5.png": {
+   "bytes": 924,
+   "sha256": "73a0149f63f6a04f9855f1eaec056ba8d8cfab066d8e3f53af35f97c222da8cc",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_unselected_6.png": {
+   "bytes": 924,
+   "sha256": "73a0149f63f6a04f9855f1eaec056ba8d8cfab066d8e3f53af35f97c222da8cc",
+   "source": "pack"
+  },
+  "sprites/container/creative_inventory/tab_top_unselected_7.png": {
+   "bytes": 924,
+   "sha256": "73a0149f63f6a04f9855f1eaec056ba8d8cfab066d8e3f53af35f97c222da8cc",
+   "source": "pack"
+  }
+ },
+ "jar": {
+  "path": "/Users/ori/Library/Application Support/minecraft/versions/26.2/26.2.jar",
+  "sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754"
+ },
+ "pack": {
+  "path": "/Users/ori/mineshaft-assets/target/assets-cache/vox-pack.zip",
+  "sha256": "b51fd0b9b0bf1f0f22448e2d227a903c880f2af678474ec212088b736d8a0da2"
+ },
+ "trace": {
+  "path": "client/menu/tests/traces/creative/creative.jsonl.gz",
+  "sha256": "74c6a8f96614b8011086f13e6ae0dfc8c83a20aa722d10ef2364f12539dbc21c"
+ }
+}

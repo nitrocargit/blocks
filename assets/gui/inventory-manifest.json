@@ -1,0 +1,812 @@
+{
+ "files": {
+  "alt-font.json": {
+   "bytes": 224,
+   "sha256": "b2d3fc1717d41bc39f50ba78bd6e24215e305f416589ab12edb9c80bc6b2fda1",
+   "source": "free"
+  },
+  "banner/banner_base.png": {
+   "bytes": 624,
+   "sha256": "f067a89bd6a25d5f09e340c5b76523fff2cb7207946e38e855f21b811a848b4d",
+   "source": "free"
+  },
+  "banner/base.png": {
+   "bytes": 442,
+   "sha256": "e4068f30614082cdd37f54927b47fef38dc701bf537618d42d987e4258588990",
+   "source": "pack"
+  },
+  "banner/border.png": {
+   "bytes": 1077,
+   "sha256": "bedffbfa244b132d611770d5959e4a60a9759bd2a242c107ad2d9524ce1ec5cb",
+   "source": "pack"
+  },
+  "banner/bricks.png": {
+   "bytes": 1570,
+   "sha256": "fff2da56e70600c02a2bb66a68c8d9deeb37e37c6f291deb20f903fbbb19b8a1",
+   "source": "pack"
+  },
+  "banner/circle.png": {
+   "bytes": 838,
+   "sha256": "11917ff161994f9103e1214bee40f4e409d9ff24304aa2ff0022b457fe6b7ce4",
+   "source": "pack"
+  },
+  "banner/creeper.png": {
+   "bytes": 987,
+   "sha256": "4c0efa97c4148850ca10d0e5ea5d323863e44cfa9736270578166b25b2f8f7ad",
+   "source": "pack"
+  },
+  "banner/cross.png": {
+   "bytes": 1333,
+   "sha256": "7d7d069b7d1bac9b177245fd7602c058302ef28358dfa585d53f6e731803cd84",
+   "source": "pack"
+  },
+  "banner/curly_border.png": {
+   "bytes": 1418,
+   "sha256": "65f94893ce6b98b95df2f75f010a0aa53514cb9bb61d2bd260d63404eb3376d7",
+   "source": "pack"
+  },
+  "banner/diagonal_left.png": {
+   "bytes": 1298,
+   "sha256": "edbd9c048555e0887fe3f0bfa7ee4029a07a9d748687a27dd3ceaafbd692bfba",
+   "source": "pack"
+  },
+  "banner/diagonal_right.png": {
+   "bytes": 1324,
+   "sha256": "604e760041698309752d0f355e685b8b01401a2ad931960542752f9bf5550a87",
+   "source": "pack"
+  },
+  "banner/diagonal_up_left.png": {
+   "bytes": 1192,
+   "sha256": "8a522bbcee7cff0a51bd1a36fb34bb060942f3b6939d726b7f0e5d80e3128291",
+   "source": "pack"
+  },
+  "banner/diagonal_up_right.png": {
+   "bytes": 1159,
+   "sha256": "71008ee28fd9c0cc7818d2848e43489d1e2aae0782f2eb869f6d2f9ebfdb237c",
+   "source": "pack"
+  },
+  "banner/flow.png": {
+   "bytes": 8804,
+   "sha256": "c22eea027b6a8fa7fd01e2899a00a517fdcc64b014c3c9ea1d2c98fa6e722f33",
+   "source": "pack"
+  },
+  "banner/flower.png": {
+   "bytes": 1201,
+   "sha256": "a9097492bc8835067956cf9542ec4755b1226b01ab47cfaf95284b3fe243ce19",
+   "source": "pack"
+  },
+  "banner/globe.png": {
+   "bytes": 1124,
+   "sha256": "ffe64772514016f9247455fa229045e8c986432e5dcda058607369da6924f9b7",
+   "source": "pack"
+  },
+  "banner/gradient.png": {
+   "bytes": 2361,
+   "sha256": "76bfd1e8d3295a78ea9ba7d465415798bda3bf47f808d831003804bb341cb4f2",
+   "source": "pack"
+  },
+  "banner/gradient_up.png": {
+   "bytes": 2379,
+   "sha256": "6cefe4424062cda847c5d05cb7cea191b51423ca5f7603d7f8c40cc93800e27a",
+   "source": "pack"
+  },
+  "banner/guster.png": {
+   "bytes": 9567,
+   "sha256": "49651864f6d26c4db4fdbdc902f4072804d98d5269ba107982649b9fa0cc0695",
+   "source": "pack"
+  },
+  "banner/half_horizontal.png": {
+   "bytes": 1086,
+   "sha256": "5b4e790c1dd8499e93660aad13ed7d4fddd4c6040bd6e5d12bd0fe0701461792",
+   "source": "pack"
+  },
+  "banner/half_horizontal_bottom.png": {
+   "bytes": 1053,
+   "sha256": "3bb954e548e55c7a106259d92c8638bfa2a2c3f522beec5f773b3235f8952401",
+   "source": "pack"
+  },
+  "banner/half_vertical.png": {
+   "bytes": 1111,
+   "sha256": "1cb25b358529e321fc75c5b938b687ed5d14d6652b791adcc0c057b9d5c2761a",
+   "source": "pack"
+  },
+  "banner/half_vertical_right.png": {
+   "bytes": 1126,
+   "sha256": "654a34f47a15f20b0e944462ddb715ba7656e3efd5debb01c14d2777d04d983b",
+   "source": "pack"
+  },
+  "banner/mojang.png": {
+   "bytes": 1116,
+   "sha256": "0125c429ec74ecde9f83ea87ebadef4e244b7ca5416175c9e179ad71aea7d613",
+   "source": "pack"
+  },
+  "banner/piglin.png": {
+   "bytes": 118,
+   "sha256": "66dc2d8524c26684c1b8c2bfa3200d4e6a92a9ee9794dc6d2fcc06ed36009522",
+   "source": "free"
+  },
+  "banner/rhombus.png": {
+   "bytes": 944,
+   "sha256": "564f3502f030606dd5f5b0adf01a50f4fc474079dd17a8a12e363bbf458c8a4d",
+   "source": "pack"
+  },
+  "banner/skull.png": {
+   "bytes": 1134,
+   "sha256": "9a4ef0d95e0d4aafaa5216e71a34d54b65978cc17f7ec2a008ae655ca5fc50a9",
+   "source": "pack"
+  },
+  "banner/small_stripes.png": {
+   "bytes": 1248,
+   "sha256": "3bc146f21b1e0269e44ec9772cfcd7bed0bf2718b9cf0685210a7e5c0861fc79",
+   "source": "pack"
+  },
+  "banner/square_bottom_left.png": {
+   "bytes": 788,
+   "sha256": "8e65cf1813d455c49e030f8697f471a7603e157c93e85e91c946c804db6b6d35",
+   "source": "pack"
+  },
+  "banner/square_bottom_right.png": {
+   "bytes": 787,
+   "sha256": "0bdd30079d34b75e5f7a2e6f50ea7dd65ce4687e49d9ce50378d1070c342c890",
+   "source": "pack"
+  },
+  "banner/square_top_left.png": {
+   "bytes": 869,
+   "sha256": "8e212353383f6e1ac3ed18ae3da7fbbd06ed75e44541e9d35a7fd8fd63bedfe5",
+   "source": "pack"
+  },
+  "banner/square_top_right.png": {
+   "bytes": 857,
+   "sha256": "13dd8eb4336e0293f077b9c3c3d17b15e57af50f37194d6c244dc1a7a632f91e",
+   "source": "pack"
+  },
+  "banner/straight_cross.png": {
+   "bytes": 945,
+   "sha256": "25ead7fc157da21b0b1cbff04844cfbeab89833f4667d96458d645b19aa80e69",
+   "source": "pack"
+  },
+  "banner/stripe_bottom.png": {
+   "bytes": 868,
+   "sha256": "38414f7694e336887eabca74921ac8e7f338232edf85b3176f2591bae0ec1134",
+   "source": "pack"
+  },
+  "banner/stripe_center.png": {
+   "bytes": 885,
+   "sha256": "b713d6e59c5a3a2e9f5d187ba3d3007dd43d3fbd5abd5c03167b407cc64e045e",
+   "source": "pack"
+  },
+  "banner/stripe_downleft.png": {
+   "bytes": 1147,
+   "sha256": "6c890fd8162885052edb5585a40f3da7614bdc542c95d82387f2038bb41e1040",
+   "source": "pack"
+  },
+  "banner/stripe_downright.png": {
+   "bytes": 1168,
+   "sha256": "7c4f55a6c824bbab6de9cdeb485366689944a81d0a6fa1f25599cedb86fb37f6",
+   "source": "pack"
+  },
+  "banner/stripe_left.png": {
+   "bytes": 1021,
+   "sha256": "e8bbe30dd753a447a1e9f48906d468e53714fa4903ab50c81e3745073a3f930e",
+   "source": "pack"
+  },
+  "banner/stripe_middle.png": {
+   "bytes": 796,
+   "sha256": "9147fbe2ec1a56204f2d6f63b7118bd3f09aae5ef152c6452cf1d51ba7055cf6",
+   "source": "pack"
+  },
+  "banner/stripe_right.png": {
+   "bytes": 1020,
+   "sha256": "25271a68c29e041f3f1f840fc45b0646fb836ebc135610ddb1b0f2a8a10d5174",
+   "source": "pack"
+  },
+  "banner/stripe_top.png": {
+   "bytes": 969,
+   "sha256": "d5c4d236428a0a7c42b68d1b5aaefbbebdae505fd26e9c5beefae0047e196b6f",
+   "source": "pack"
+  },
+  "banner/triangle_bottom.png": {
+   "bytes": 1470,
+   "sha256": "3afb2b7858d6880dce21b60ce4cdfe2a398892ef93b80bd4cc809a775e26c892",
+   "source": "pack"
+  },
+  "banner/triangle_top.png": {
+   "bytes": 1092,
+   "sha256": "e721cd0f3ed6d34347481104068730f01801ff849926e2f72109c6b23d741274",
+   "source": "pack"
+  },
+  "banner/triangles_bottom.png": {
+   "bytes": 837,
+   "sha256": "5b31797efa684ead73d6e44b57f7eb1481f16ccfdf9295a4d78b7c4fbc03191f",
+   "source": "pack"
+  },
+  "banner/triangles_top.png": {
+   "bytes": 877,
+   "sha256": "256ced58d0fa8e109f2365c61c4ccf21c89ece28091352e8f7c10ca187be329b",
+   "source": "pack"
+  },
+  "container/anvil.png": {
+   "bytes": 3579,
+   "sha256": "15ebbf975da831a71ad27fd6ee67f727d80b91b2505707010fdd9b19356dcaf4",
+   "source": "pack"
+  },
+  "container/beacon.png": {
+   "bytes": 13801,
+   "sha256": "f3eb80dbef1b3d6de92c600d5993590bd75a5f33ec495a45cfb3d89615bfc7e0",
+   "source": "pack"
+  },
+  "container/blast_furnace.png": {
+   "bytes": 16815,
+   "sha256": "85416d5257f02be1a1f232f41b5ddc6f3c7c10fb90f833c38e0e18f903ac4462",
+   "source": "pack"
+  },
+  "container/brewing_stand.png": {
+   "bytes": 14819,
+   "sha256": "8d1c9a60c689e249150beb76472e701409c96abee3fbbe70486ad2f35339075d",
+   "source": "pack"
+  },
+  "container/cartography_table.png": {
+   "bytes": 8859,
+   "sha256": "dca05301fa9b5dd50a7a5cc5b1bd9b7d4dbf94c056cfff244264793b3ebb24f8",
+   "source": "pack"
+  },
+  "container/crafter.png": {
+   "bytes": 19134,
+   "sha256": "6308fa8f220d75ab565c6208d4a237404ebd3dec64a6d476cb67e8ee9b2f7407",
+   "source": "pack"
+  },
+  "container/crafting_table.png": {
+   "bytes": 19469,
+   "sha256": "4415fc2dd026581f84f54e0d592f209e3a91573996306321eb1b3a4f817183c2",
+   "source": "pack"
+  },
+  "container/dispenser.png": {
+   "bytes": 2962,
+   "sha256": "8ed8a90740c7c7b873e9ba4baf1d08bb0ab4c512b043bb76f96ea08f6e72a27e",
+   "source": "pack"
+  },
+  "container/enchanting_table.png": {
+   "bytes": 3571,
+   "sha256": "35332f0851b1f3290517f727901a10f8609bd2f19eca35c34346f2d37d8563fa",
+   "source": "pack"
+  },
+  "container/furnace.png": {
+   "bytes": 19003,
+   "sha256": "cb467b9802af5e5e66c3b6bc022e7396d5a079c6e7c05e8998f46244355a6bdf",
+   "source": "pack"
+  },
+  "container/generic_54.png": {
+   "bytes": 5127,
+   "sha256": "32e34d0a42ab8914423c43cfcda5274af1ba37ed3b4a23ef1f50a7b377a40980",
+   "source": "pack"
+  },
+  "container/grindstone.png": {
+   "bytes": 3018,
+   "sha256": "2708199d4ada2d2829609de29265e918a5ff5bebc694ed7772f1ee03e34069ee",
+   "source": "pack"
+  },
+  "container/hopper.png": {
+   "bytes": 2672,
+   "sha256": "445eaf4b7387225e0c9937db225d8f65204f984d3df033d71a3cf3a8aa2d8628",
+   "source": "pack"
+  },
+  "container/inventory.png": {
+   "bytes": 20036,
+   "sha256": "487f732de06fb0a4db91f79d7fbef4b8a2c55d7a9f23bebe4f57e61147c1d003",
+   "source": "pack"
+  },
+  "container/loom.png": {
+   "bytes": 1944,
+   "sha256": "abcef9661bba6ae14916c9911f54e81d62695e7386f7fc58965a91aaa03c846b",
+   "source": "pack"
+  },
+  "container/shulker_box.png": {
+   "bytes": 14180,
+   "sha256": "03bbb9714392c118c485caad1872339c9055486698e98cddae0cbf6995ba37df",
+   "source": "pack"
+  },
+  "container/smithing.png": {
+   "bytes": 12535,
+   "sha256": "7cf0014d569834060ccd20188f75fcfa53c8094f29a9e72c5bbbdc44586fad60",
+   "source": "pack"
+  },
+  "container/smoker.png": {
+   "bytes": 19347,
+   "sha256": "05931248770d9f2d57d635f32492806e577adc6f74e857fed4f44369976fe4a8",
+   "source": "pack"
+  },
+  "container/stonecutter.png": {
+   "bytes": 3290,
+   "sha256": "f39d2de18dff7cf75be0eaf10b7edb5fed8d8fb889a562b97fc2dfc964ce09cc",
+   "source": "pack"
+  },
+  "font/ascii_sga.png": {
+   "bytes": 383,
+   "sha256": "6f7d41f7ca5dc44896f59c8a373929e24e019efff17bc5876e0bd2a8cd815bb9",
+   "source": "free"
+  },
+  "inventory-lang.json": {
+   "bytes": 51613,
+   "sha256": "ca3d9e7e13de6dca03e9e94cb6fe60e973b0f285f9f025c08ef87cd916e705ee",
+   "source": "free+pack lang"
+  },
+  "sprites/container/anvil/error.png": {
+   "bytes": 1019,
+   "sha256": "6056edc4b37743bb35618d0b9071822278be67f13f2ea3efc72d2e54b681b102",
+   "source": "pack"
+  },
+  "sprites/container/anvil/text_field.png": {
+   "bytes": 872,
+   "sha256": "26930c8c7c672009610b8bfc04276d24d53d9ee581463541ed12ec75d822949a",
+   "source": "pack"
+  },
+  "sprites/container/anvil/text_field_disabled.png": {
+   "bytes": 872,
+   "sha256": "26930c8c7c672009610b8bfc04276d24d53d9ee581463541ed12ec75d822949a",
+   "source": "pack"
+  },
+  "sprites/container/beacon/button.png": {
+   "bytes": 864,
+   "sha256": "b26f0797fc0219ecc6793e5e956b77719136a9afe42971c7391185131e035451",
+   "source": "pack"
+  },
+  "sprites/container/beacon/button_disabled.png": {
+   "bytes": 864,
+   "sha256": "b26f0797fc0219ecc6793e5e956b77719136a9afe42971c7391185131e035451",
+   "source": "pack"
+  },
+  "sprites/container/beacon/button_highlighted.png": {
+   "bytes": 864,
+   "sha256": "b26f0797fc0219ecc6793e5e956b77719136a9afe42971c7391185131e035451",
+   "source": "pack"
+  },
+  "sprites/container/beacon/button_selected.png": {
+   "bytes": 864,
+   "sha256": "b26f0797fc0219ecc6793e5e956b77719136a9afe42971c7391185131e035451",
+   "source": "pack"
+  },
+  "sprites/container/beacon/cancel.png": {
+   "bytes": 976,
+   "sha256": "b3b2d3531b81f3e591f3f29f06402abf69265be22a3b14ee35b14ea45d45eea9",
+   "source": "pack"
+  },
+  "sprites/container/beacon/confirm.png": {
+   "bytes": 969,
+   "sha256": "6379d5b922ec15ec469e24df610c8fc97747efd420b03b9a3cde99fad41ca075",
+   "source": "pack"
+  },
+  "sprites/container/blast_furnace/burn_progress.png": {
+   "bytes": 8787,
+   "sha256": "26a189e6485f0986fdfcdfda54601e3519e11aa449172edd58eddfc7e590c5d6",
+   "source": "pack"
+  },
+  "sprites/container/blast_furnace/lit_progress.png": {
+   "bytes": 11346,
+   "sha256": "637dd4a464c71bf450d74a3773c49290a03ffd0e61801338d7c87e2ad8aabf88",
+   "source": "pack"
+  },
+  "sprites/container/brewing_stand/brew_progress.png": {
+   "bytes": 197,
+   "sha256": "c0ae4a717e408a515bdac8bae0b8562a5a58c87bb395c3409ad4d934926ce439",
+   "source": "pack"
+  },
+  "sprites/container/brewing_stand/bubbles.png": {
+   "bytes": 212,
+   "sha256": "47518e86c84db5f7f33e5c57b1a1f32e0fc2ae04817f389349976a06d64774ad",
+   "source": "pack"
+  },
+  "sprites/container/brewing_stand/fuel_length.png": {
+   "bytes": 124,
+   "sha256": "6f77e389a5af41c9a74c14b07d7d858d8379e6ae3b0c2d45c89f35f5a1d7ce63",
+   "source": "pack"
+  },
+  "sprites/container/cartography_table/duplicated_map.png": {
+   "bytes": 990,
+   "sha256": "c0eff4771dd1ed471aadb5299ebcadc94332f4465a12fe56a6e9fcfe5062128b",
+   "source": "pack"
+  },
+  "sprites/container/cartography_table/error.png": {
+   "bytes": 348,
+   "sha256": "2cc54303dcd3f22d97a0afd4f29a9375a872dba8166f3e83d973c47f652367db",
+   "source": "pack"
+  },
+  "sprites/container/cartography_table/locked.png": {
+   "bytes": 163,
+   "sha256": "de8a89961a9f67a2d4139e594c03acb558f2e819d78a5b852e6c63d3693fe74d",
+   "source": "pack"
+  },
+  "sprites/container/cartography_table/map.png": {
+   "bytes": 1452,
+   "sha256": "18ada3c7912fa7daa80e10d5bbab98e6565070f00ac2640294a8419c543aa8ce",
+   "source": "pack"
+  },
+  "sprites/container/cartography_table/scaled_map.png": {
+   "bytes": 1604,
+   "sha256": "5b71dc569cae90057285e7234e25bfed9a5022053ef23e19136561f3e336f544",
+   "source": "pack"
+  },
+  "sprites/container/crafter/disabled_slot.png": {
+   "bytes": 12413,
+   "sha256": "3af6ad5cb8eeba315f963c23bdac611c8c969adfd320de021ff6d9f2daa5b806",
+   "source": "pack"
+  },
+  "sprites/container/crafter/powered_redstone.png": {
+   "bytes": 5510,
+   "sha256": "b5851fb53bb11412a3fe735486f26427ae3423726859f064c7c9da5b135955b2",
+   "source": "pack"
+  },
+  "sprites/container/crafter/unpowered_redstone.png": {
+   "bytes": 5506,
+   "sha256": "1d250bd8cd74a23bc1c83d3ddeedb7efd92316614ba1c77e9815e82789812db8",
+   "source": "pack"
+  },
+  "sprites/container/enchanting_table/enchantment_slot.png": {
+   "bytes": 874,
+   "sha256": "77f1540143f06a2fc2775563160c797ea86f071b314c52b3bb6c67860643200f",
+   "source": "pack"
+  },
+  "sprites/container/enchanting_table/enchantment_slot_disabled.png": {
+   "bytes": 874,
+   "sha256": "77f1540143f06a2fc2775563160c797ea86f071b314c52b3bb6c67860643200f",
+   "source": "pack"
+  },
+  "sprites/container/enchanting_table/enchantment_slot_highlighted.png": {
+   "bytes": 954,
+   "sha256": "56ad3efaa14e7d59dbf03c52064c67182bb3ffb7aa1ee74ee5813fc86be75e38",
+   "source": "pack"
+  },
+  "sprites/container/enchanting_table/level_1.png": {
+   "bytes": 886,
+   "sha256": "c356c0304aca6a329e6cb3538c13c1d9ee65eb01b1b31a7856f2b31f44276034",
+   "source": "pack"
+  },
+  "sprites/container/enchanting_table/level_1_disabled.png": {
+   "bytes": 863,
+   "sha256": "0c7d4643854ead58016ec5cb61b23123c1f28e64ad7d3252426abc1a019b4d8a",
+   "source": "pack"
+  },
+  "sprites/container/enchanting_table/level_2.png": {
+   "bytes": 909,
+   "sha256": "f38f7c00c35f2e70e6c0ff23d3829b689009214b5b9eb7f6669e0ccd568e68d5",
+   "source": "pack"
+  },
+  "sprites/container/enchanting_table/level_2_disabled.png": {
+   "bytes": 863,
+   "sha256": "0c7d4643854ead58016ec5cb61b23123c1f28e64ad7d3252426abc1a019b4d8a",
+   "source": "pack"
+  },
+  "sprites/container/enchanting_table/level_3.png": {
+   "bytes": 916,
+   "sha256": "c6855e4225e21f4cb43a2f6976e2e2cc6b8c4944011011f6b4bda29490603254",
+   "source": "pack"
+  },
+  "sprites/container/enchanting_table/level_3_disabled.png": {
+   "bytes": 863,
+   "sha256": "0c7d4643854ead58016ec5cb61b23123c1f28e64ad7d3252426abc1a019b4d8a",
+   "source": "pack"
+  },
+  "sprites/container/furnace/burn_progress.png": {
+   "bytes": 8631,
+   "sha256": "da1299e756ae5c4de4c54ec9f8f685f2d717f52743d18522a6ff1a3dc4a5d2a4",
+   "source": "pack"
+  },
+  "sprites/container/furnace/lit_progress.png": {
+   "bytes": 11346,
+   "sha256": "637dd4a464c71bf450d74a3773c49290a03ffd0e61801338d7c87e2ad8aabf88",
+   "source": "pack"
+  },
+  "sprites/container/grindstone/error.png": {
+   "bytes": 348,
+   "sha256": "2cc54303dcd3f22d97a0afd4f29a9375a872dba8166f3e83d973c47f652367db",
+   "source": "pack"
+  },
+  "sprites/container/loom/error.png": {
+   "bytes": 141,
+   "sha256": "c703fb7160379d8eab575ddfc47e82f4dedf270887d753f403532aedc83911b1",
+   "source": "free"
+  },
+  "sprites/container/loom/pattern.png": {
+   "bytes": 910,
+   "sha256": "a44407d5ceb24028f9bd0e8a5a5c0bf2563c5393cc5bbd00170f82eb812fbce0",
+   "source": "pack"
+  },
+  "sprites/container/loom/pattern_highlighted.png": {
+   "bytes": 906,
+   "sha256": "8dade1964ee6b597a6816bcf1653d444345710be7a6d5276a3f63368d094ee7e",
+   "source": "pack"
+  },
+  "sprites/container/loom/pattern_selected.png": {
+   "bytes": 881,
+   "sha256": "650a274f18b0a995770665cb9e88cb4b2e24b6da9f04da5d62f02e65cdf6c6df",
+   "source": "pack"
+  },
+  "sprites/container/loom/scroller.png": {
+   "bytes": 949,
+   "sha256": "5f31d5c918b47d12c26e713ac84b69acb906c8b95ba3002989e02ba0f3b6692b",
+   "source": "pack"
+  },
+  "sprites/container/loom/scroller_disabled.png": {
+   "bytes": 965,
+   "sha256": "a31164be0de82d633facbf6578b58b23c883d7d5b1cbf7d9039b947bad4b68e8",
+   "source": "pack"
+  },
+  "sprites/container/slot/amethyst_shard.png": {
+   "bytes": 5425,
+   "sha256": "3c242c98e45dbab8573c444f4f97c65666da3c630a24dd7961c6a1db704d5716",
+   "source": "pack"
+  },
+  "sprites/container/slot/axe.png": {
+   "bytes": 5426,
+   "sha256": "6e323ca356fc03122c562038a4128f75d671d091ffc4e31255a29bde2b4aeb71",
+   "source": "pack"
+  },
+  "sprites/container/slot/banner.png": {
+   "bytes": 5442,
+   "sha256": "8b5bb9de7df23f7b3de511f1b48376e02f332f4c2b63b7aa0ebf2b8ae06931d8",
+   "source": "pack"
+  },
+  "sprites/container/slot/banner_pattern.png": {
+   "bytes": 5442,
+   "sha256": "8b5bb9de7df23f7b3de511f1b48376e02f332f4c2b63b7aa0ebf2b8ae06931d8",
+   "source": "pack"
+  },
+  "sprites/container/slot/boots.png": {
+   "bytes": 222,
+   "sha256": "e383a890c126eb2ddf5dc9d5b3185f7c623b3c65ace3a7a64a7bec93136e1f2e",
+   "source": "pack"
+  },
+  "sprites/container/slot/brewing_fuel.png": {
+   "bytes": 5442,
+   "sha256": "8b5bb9de7df23f7b3de511f1b48376e02f332f4c2b63b7aa0ebf2b8ae06931d8",
+   "source": "pack"
+  },
+  "sprites/container/slot/chestplate.png": {
+   "bytes": 222,
+   "sha256": "d376252f557d8a3b4b3cdf78f3f718808c658815f61c0b8ff125b642fbda53d1",
+   "source": "pack"
+  },
+  "sprites/container/slot/diamond.png": {
+   "bytes": 5442,
+   "sha256": "8b5bb9de7df23f7b3de511f1b48376e02f332f4c2b63b7aa0ebf2b8ae06931d8",
+   "source": "pack"
+  },
+  "sprites/container/slot/dye.png": {
+   "bytes": 5442,
+   "sha256": "8b5bb9de7df23f7b3de511f1b48376e02f332f4c2b63b7aa0ebf2b8ae06931d8",
+   "source": "pack"
+  },
+  "sprites/container/slot/emerald.png": {
+   "bytes": 5427,
+   "sha256": "e973a57d7b3d27df4c01ddcb6645821a6133427d77512584027618849188a55a",
+   "source": "pack"
+  },
+  "sprites/container/slot/helmet.png": {
+   "bytes": 222,
+   "sha256": "a93cf4f4d10107672fb3e0bad9241e0fa2b449fe6336a5deb46d8f473b66ca59",
+   "source": "pack"
+  },
+  "sprites/container/slot/hoe.png": {
+   "bytes": 5415,
+   "sha256": "52820d75880f9e2536503a8f26b4675b5800948daa80294c4004fa759d5d5d1f",
+   "source": "pack"
+  },
+  "sprites/container/slot/horse_armor.png": {
+   "bytes": 5442,
+   "sha256": "8b5bb9de7df23f7b3de511f1b48376e02f332f4c2b63b7aa0ebf2b8ae06931d8",
+   "source": "pack"
+  },
+  "sprites/container/slot/ingot.png": {
+   "bytes": 5428,
+   "sha256": "63fa84d2338d2aeb976f29ee967649edb0a40c66114e5194c90cf0a3d20fd62a",
+   "source": "pack"
+  },
+  "sprites/container/slot/lapis_lazuli.png": {
+   "bytes": 5411,
+   "sha256": "ba45e55c5c9e65f97508687df031381add354662fab09d63111c3fd9ed8fbf9c",
+   "source": "pack"
+  },
+  "sprites/container/slot/leggings.png": {
+   "bytes": 222,
+   "sha256": "4ed3b5c7d6b76d1d45460540f81dde6320af79eaac5e9550df1938df368d7d22",
+   "source": "pack"
+  },
+  "sprites/container/slot/llama_armor.png": {
+   "bytes": 5442,
+   "sha256": "8b5bb9de7df23f7b3de511f1b48376e02f332f4c2b63b7aa0ebf2b8ae06931d8",
+   "source": "pack"
+  },
+  "sprites/container/slot/nautilus_armor.png": {
+   "bytes": 71,
+   "sha256": "c669f5d3be11fd1a1163c931f8640ec499aae9bde51404bdd697b9244cc3431b",
+   "source": "free"
+  },
+  "sprites/container/slot/nautilus_armor_inventory.png": {
+   "bytes": 71,
+   "sha256": "c669f5d3be11fd1a1163c931f8640ec499aae9bde51404bdd697b9244cc3431b",
+   "source": "free"
+  },
+  "sprites/container/slot/pickaxe.png": {
+   "bytes": 5424,
+   "sha256": "4243cc97005df80da0e8f79a0f381e0f764f5e559be8d586f627fda0ec03a700",
+   "source": "pack"
+  },
+  "sprites/container/slot/potion.png": {
+   "bytes": 5442,
+   "sha256": "8b5bb9de7df23f7b3de511f1b48376e02f332f4c2b63b7aa0ebf2b8ae06931d8",
+   "source": "pack"
+  },
+  "sprites/container/slot/quartz.png": {
+   "bytes": 5467,
+   "sha256": "8a1b8f4adff4c3d87847ee0500d1a2aae26cb211f72058efcb09d2896fff9fa1",
+   "source": "pack"
+  },
+  "sprites/container/slot/redstone_dust.png": {
+   "bytes": 5423,
+   "sha256": "cdf40b5496ec19f56a329234bda5fc53780e068c5f5896010e8a6640420a8080",
+   "source": "pack"
+  },
+  "sprites/container/slot/saddle.png": {
+   "bytes": 5442,
+   "sha256": "8b5bb9de7df23f7b3de511f1b48376e02f332f4c2b63b7aa0ebf2b8ae06931d8",
+   "source": "pack"
+  },
+  "sprites/container/slot/shield.png": {
+   "bytes": 235,
+   "sha256": "1526d4336f35bb6221967c9042f82cb4e5696e0314baf7a787fbe13f716702c5",
+   "source": "pack"
+  },
+  "sprites/container/slot/shovel.png": {
+   "bytes": 5409,
+   "sha256": "38bf46b996a8f57f47f215e85d24245593826f57bdb56c0f2b553cfbe7d1633b",
+   "source": "pack"
+  },
+  "sprites/container/slot/smithing_template_armor_trim.png": {
+   "bytes": 5446,
+   "sha256": "0d97f07f0169c199b278d0cdba587ae5ace42d4665bc0aa1779645af8d2fd37f",
+   "source": "pack"
+  },
+  "sprites/container/slot/smithing_template_netherite_upgrade.png": {
+   "bytes": 5424,
+   "sha256": "1688b948981bf7ddbf54b3782ea875c9ee01b1a727e236feddc1267662208f49",
+   "source": "pack"
+  },
+  "sprites/container/slot/spear.png": {
+   "bytes": 71,
+   "sha256": "c669f5d3be11fd1a1163c931f8640ec499aae9bde51404bdd697b9244cc3431b",
+   "source": "free"
+  },
+  "sprites/container/slot/sword.png": {
+   "bytes": 5450,
+   "sha256": "d1b8af46bfae577f02766bdec6f7c94c8f12d0539b8696a9ec4d068ebec8aa04",
+   "source": "pack"
+  },
+  "sprites/container/slot_highlight_back.png": {
+   "bytes": 96,
+   "sha256": "5b1bcaa3e4cef1fae968e2859bc2068496cc1da5c52d45cd48278ae753b63ed0",
+   "source": "pack"
+  },
+  "sprites/container/slot_highlight_back.png.mcmeta": {
+   "bytes": 75,
+   "sha256": "20fa6fa1ee5b5f9fca22b5a8b4421c4a38fdb1cd60277cfd3e61ab13c36cc80d",
+   "source": "pack"
+  },
+  "sprites/container/slot_highlight_front.png": {
+   "bytes": 9221,
+   "sha256": "f9ef9fa4526358c878995b6182dc3501b3460e81d8fe05453588a6c762cbdda6",
+   "source": "pack"
+  },
+  "sprites/container/slot_highlight_front.png.mcmeta": {
+   "bytes": 75,
+   "sha256": "20fa6fa1ee5b5f9fca22b5a8b4421c4a38fdb1cd60277cfd3e61ab13c36cc80d",
+   "source": "pack"
+  },
+  "sprites/container/smithing/error.png": {
+   "bytes": 1025,
+   "sha256": "74b2efec9e5081e610401bad91b1173e497e3b723ab61586126e83e12cdf6ee5",
+   "source": "pack"
+  },
+  "sprites/container/smoker/burn_progress.png": {
+   "bytes": 8631,
+   "sha256": "da1299e756ae5c4de4c54ec9f8f685f2d717f52743d18522a6ff1a3dc4a5d2a4",
+   "source": "pack"
+  },
+  "sprites/container/smoker/lit_progress.png": {
+   "bytes": 11346,
+   "sha256": "637dd4a464c71bf450d74a3773c49290a03ffd0e61801338d7c87e2ad8aabf88",
+   "source": "pack"
+  },
+  "sprites/container/stonecutter/recipe.png": {
+   "bytes": 97,
+   "sha256": "197af606ffd0d6ca5e2419bacc3c0b9938e8cbf427d5f3350804527b144b8405",
+   "source": "pack"
+  },
+  "sprites/container/stonecutter/recipe_highlighted.png": {
+   "bytes": 97,
+   "sha256": "4b201397050719c5d2ec88db8276df32a0a39e0e3f9cf4c28468f003160b28e3",
+   "source": "pack"
+  },
+  "sprites/container/stonecutter/recipe_selected.png": {
+   "bytes": 97,
+   "sha256": "82b547b6b3b3f745b675805a8310eae2761f63474f06cc4834ba800692c3d66d",
+   "source": "pack"
+  },
+  "sprites/container/stonecutter/scroller.png": {
+   "bytes": 178,
+   "sha256": "cfc1de19771fc518037be23ee7ee48ac555fd502886762598421eb04c041b9ff",
+   "source": "pack"
+  },
+  "sprites/container/stonecutter/scroller_disabled.png": {
+   "bytes": 193,
+   "sha256": "58a097785c3a98413f4ff0b28e4d668194a848a8cc5f494669d4c14da954dc71",
+   "source": "pack"
+  },
+  "sprites/mob_effect/haste.png": {
+   "bytes": 5830,
+   "sha256": "19c2ef583536795251994f0f844161e154903f7473409aa3235c9c08e15ae58b",
+   "source": "pack"
+  },
+  "sprites/mob_effect/jump_boost.png": {
+   "bytes": 118,
+   "sha256": "b31d62a11e218cd9fdfbe93377fd8838f6f959d11a551f171ba60a9c0a0399dc",
+   "source": "pack"
+  },
+  "sprites/mob_effect/regeneration.png": {
+   "bytes": 4753,
+   "sha256": "68d7df3a05b23b2fb1ad0eec714f7b1e1fae2906a4022b18512b4ab5ae702402",
+   "source": "pack"
+  },
+  "sprites/mob_effect/resistance.png": {
+   "bytes": 4561,
+   "sha256": "bbc937cb342a3b129097f6172e7c2f259840298b6c952eab6278b8424b9c1361",
+   "source": "pack"
+  },
+  "sprites/mob_effect/speed.png": {
+   "bytes": 9106,
+   "sha256": "29ffd67227174c7886bf29a2728502b7658901694e711f8ea307ae7fd3166252",
+   "source": "pack"
+  },
+  "sprites/mob_effect/strength.png": {
+   "bytes": 4177,
+   "sha256": "787f75d61ead9fae080511dabe641ff5a5468817bf0a129117613dae4d09fffa",
+   "source": "pack"
+  },
+  "sprites/recipe_book/button.png": {
+   "bytes": 12616,
+   "sha256": "dda3c8ff816ff5d1170b20e4326a5e4d88827c6488867a5d037c682c3e90ad9d",
+   "source": "pack"
+  },
+  "sprites/recipe_book/button_highlighted.png": {
+   "bytes": 12151,
+   "sha256": "cb2a7f55c6e050f789cc485ff17cd1d3c9d0e052aab9606c73daa1745df16b2b",
+   "source": "pack"
+  },
+  "sprites/tooltip/background.png": {
+   "bytes": 9454,
+   "sha256": "3ca1ae75976fb9a79f153152b7273071243ccc0f2eddeb92cc8c030a429537f4",
+   "source": "pack"
+  },
+  "sprites/tooltip/background.png.mcmeta": {
+   "bytes": 77,
+   "sha256": "224a1bb49e67e50f481a982f864d00dc3ff79187e01b43b43a220a388cd74032",
+   "source": "pack"
+  },
+  "sprites/tooltip/frame.png": {
+   "bytes": 994,
+   "sha256": "9af3bf96d44131188e621cf22a29f5746a85473f0568e8feef07082dafba272a",
+   "source": "pack"
+  },
+  "sprites/tooltip/frame.png.mcmeta": {
+   "bytes": 78,
+   "sha256": "ac46a77bf4f4bca4cdfcfb8b9c5f546f3ded7d950b73d31a5760613afc6851d8",
+   "source": "pack"
+  }
+ },
+ "jar": {
+  "path": "/Users/ori/Library/Application Support/minecraft/versions/26.2/26.2.jar",
+  "sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754"
+ },
+ "pack": {
+  "path": "/Users/ori/mineshaft-assets/target/assets-cache/vox-pack.zip",
+  "sha256": "b51fd0b9b0bf1f0f22448e2d227a903c880f2af678474ec212088b736d8a0da2"
+ }
+}

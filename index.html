@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>blox.party</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#171922;color:#f3f5fa;font:16px system-ui,sans-serif}
+iframe{display:block;border:0;width:100%;height:100%}
+p{position:absolute;inset:auto 0 45%;text-align:center;margin:0;padding:0 16px}
+a{color:inherit}
+</style>
+</head>
+<body>
+<iframe id="blox-party" title="blox.party" allow="autoplay; fullscreen; gamepad; clipboard-write; clipboard-read"></iframe>
+<script>
+// blox.party for sites that embed games from jsDelivr (deploy/mirror/README.md). jsDelivr serves
+// HTML as text, so this page writes the current release into the frame above, with a <base> at
+// the release's files. latest.json names the commit that holds them; it is read at @latest, the
+// highest release tag, which jsDelivr refreshes on a purge (@main, a branch, it may serve hours
+// old). If @latest fails, the host's @main/latest.json, published alongside, names a release
+// too, perhaps an older one. Each of jsDelivr's hosts serves the same files; some filters block
+// cdn.jsdelivr.net but allow fastly.jsdelivr.net, so a host that fails hands over to the next.
+(async function () {
+  var mirrors = ["https://cdn.jsdelivr.net/gh/nitrocargit/blocks@","https://fastly.jsdelivr.net/gh/nitrocargit/blocks@"];
+  var frame = document.getElementById("blox-party");
+  // The commit latest.json names at `ref` on `mirror`.
+  async function commitAt(mirror, ref, signal) {
+    var latest = await fetch(mirror + ref + "/latest.json", { cache: "no-store", signal: signal });
+    if (!latest.ok) throw new Error("latest.json: HTTP " + latest.status);
+    var commit = (await latest.json()).commit;
+    if (!/^[0-9a-f]{40}$/.test(commit)) throw new Error("latest.json: no commit");
+    return commit;
+  }
+  // The release on `mirror`. A host that is not the last gets 10 s: a filter may stall it.
+  async function release(mirror, last) {
+    var controller = new AbortController();
+    var timer = last ? 0 : setTimeout(function () { controller.abort(); }, 10000);
+    try {
+      var commit;
+      try {
+        commit = await commitAt(mirror, "latest", controller.signal);
+      } catch (error) {
+        if (controller.signal.aborted) throw error;
+        commit = await commitAt(mirror, "main", controller.signal).catch(function (fallback) {
+          throw new Error("@latest " + error.message + "; @main " + fallback.message);
+        });
+      }
+      var base = mirror + commit + "/";
+      var page = await fetch(base + "index.html", { signal: controller.signal });
+      if (!page.ok) throw new Error("index.html: HTTP " + page.status);
+      return { base: base, html: await page.text() };
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+  try {
+    var found = null, errors = [];
+    for (var i = 0; i < mirrors.length && !found; i++) {
+      try {
+        found = await release(mirrors[i], i === mirrors.length - 1);
+      } catch (error) {
+        errors.push(mirrors[i] + ": " + (error && error.message || error));
+      }
+    }
+    if (!found) throw new Error(errors.join("; "));
+    frame.srcdoc = found.html.replace(/<head>/i, function (head) {
+      return head + '<base href="' + found.base + '">';
+    });
+    frame.focus();
+  } catch (error) {
+    console.error("blox.party did not load", error);
+    var note = document.createElement("p");
+    note.innerHTML = 'blox.party could not load. Reload the page, or play at <a href="https://blox.party/" target="_blank" rel="noopener">blox.party</a>.';
+    document.body.replaceChild(note, frame);
+  }
+})();
+</script>
+</body>
+</html>

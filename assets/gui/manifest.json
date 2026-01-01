@@ -1,0 +1,497 @@
+{
+ "files": {
+  "colormap/dry_foliage.png": {
+   "bytes": 19165,
+   "sha256": "1ea2d892fd72e812f415e49a10ac34745fc34e0c948123a47b711093776efedd",
+   "source": "free"
+  },
+  "colormap/foliage.png": {
+   "bytes": 15481,
+   "sha256": "2769169184e35ccc1bfbd45e5b77ce6a07f4df7090ac4a8341e34cd6dac706ee",
+   "source": "pack"
+  },
+  "colormap/grass.png": {
+   "bytes": 37338,
+   "sha256": "60fac6f1882240dce78d7935475996df0e3f2c5bece2ea6a072232e443a4e62e",
+   "source": "pack"
+  },
+  "font.json": {
+   "bytes": 63263,
+   "sha256": "d8a6f7406669b634d1ee2cdd424bf3b97c8143e39bd1828d9631da1d013a203d",
+   "source": "free"
+  },
+  "font/mineshaft.png": {
+   "bytes": 1921,
+   "sha256": "1b7df61a508b7400f777ff28013e7f1e5bec1a73e4b9a0827ac060f858961d50",
+   "source": "free"
+  },
+  "font/unifont.png": {
+   "bytes": 221331,
+   "sha256": "13333971b87950d8081a7382703b598fed0135bda60864b76449c62a771d3e23",
+   "source": "asset index 32 minecraft/font/unifont.zip unifont_all_no_pua-17.0.01.hex"
+  },
+  "items.json": {
+   "bytes": 88327,
+   "sha256": "680336d16b13b2d0159848b4c266ec031f42fae305a740b5d5a989b417cd6b86",
+   "source": "free+pack lang, Items.java"
+  },
+  "lang.json": {
+   "bytes": 230672,
+   "sha256": "7111cd5efaae5137e952b60dff1581c8a6d5165e903782b2f8380dd9cfcd1821",
+   "source": "free+pack lang"
+  },
+  "sprites/hud/air.png": {
+   "bytes": 147,
+   "sha256": "15e86168b4ac8deef5b4e628c355d5b47bf75a5b7ae1f513a169d3b090a3cd95",
+   "source": "pack"
+  },
+  "sprites/hud/air_bursting.png": {
+   "bytes": 108,
+   "sha256": "3d5472924804dd5444d61f87c32717970ce9659e66956336df247a406619645c",
+   "source": "pack"
+  },
+  "sprites/hud/air_empty.png": {
+   "bytes": 142,
+   "sha256": "10fa6dca89bba5e7bea97576e9e7f9a150f31780ea755791f2cb7e6d31bfc316",
+   "source": "free"
+  },
+  "sprites/hud/armor_empty.png": {
+   "bytes": 126,
+   "sha256": "13516a42521640bbdf31331e1ba5139796af2d836ef6d94f1e4ac0400b64e0aa",
+   "source": "pack"
+  },
+  "sprites/hud/armor_full.png": {
+   "bytes": 147,
+   "sha256": "c3286da613445a49f3c60c9054f78a7b789acb291924982d91c6610f4a39f3e8",
+   "source": "pack"
+  },
+  "sprites/hud/armor_half.png": {
+   "bytes": 144,
+   "sha256": "b3755b19a4d7cb0a9234fe88e16fed95771a36d5053346c18beb1fb701259737",
+   "source": "pack"
+  },
+  "sprites/hud/crosshair.png": {
+   "bytes": 95,
+   "sha256": "2262d1c3c2c1a9fa900f54cbe572103112f189f813294646846b1eef03057669",
+   "source": "pack"
+  },
+  "sprites/hud/crosshair_attack_indicator_background.png": {
+   "bytes": 90,
+   "sha256": "24faa418958d94ac8d0212f90a0ec5e011db741b21104934e1c2d91f90ec550b",
+   "source": "pack"
+  },
+  "sprites/hud/crosshair_attack_indicator_full.png": {
+   "bytes": 89,
+   "sha256": "5bd65bc0cbe36ed84fa4005f5f0bdb9743b75bc6109fd82708f4d80c0e4d7d7b",
+   "source": "pack"
+  },
+  "sprites/hud/crosshair_attack_indicator_progress.png": {
+   "bytes": 120,
+   "sha256": "9e3b2ce5279ae69d8fed85ac0f5246947023fdab7c7150292752ef5a83240d2b",
+   "source": "pack"
+  },
+  "sprites/hud/effect_background.png": {
+   "bytes": 81,
+   "sha256": "65ac3d9585bb89475c38ba323d08c961057f68666bf8c389196a939b13a3a00b",
+   "source": "pack"
+  },
+  "sprites/hud/effect_background_ambient.png": {
+   "bytes": 81,
+   "sha256": "65ac3d9585bb89475c38ba323d08c961057f68666bf8c389196a939b13a3a00b",
+   "source": "pack"
+  },
+  "sprites/hud/experience_bar_background.png": {
+   "bytes": 248,
+   "sha256": "5296af2262e198fce3a6531e60b38ebdfb1917ea296442a52dec4f19bd3f6443",
+   "source": "pack"
+  },
+  "sprites/hud/experience_bar_progress.png": {
+   "bytes": 248,
+   "sha256": "d3d16a5ceee5ec0f428b65520f9bf2d10d764ded8b327db6d2cfd77b8fdbd344",
+   "source": "pack"
+  },
+  "sprites/hud/food_empty.png": {
+   "bytes": 8182,
+   "sha256": "62259a34f58f56d7523198957ab9e6ff6ddc012d215ba132675fd4e90a7ea88f",
+   "source": "pack"
+  },
+  "sprites/hud/food_empty_hunger.png": {
+   "bytes": 159,
+   "sha256": "ad7635c7946102154104e7d8d9e379a7b338a14742fc60073b6f08d3c9932ed5",
+   "source": "pack"
+  },
+  "sprites/hud/food_full.png": {
+   "bytes": 9773,
+   "sha256": "37d688ad48de809c9c3871916b019d8c3371c8d054843577eaa134cc3abcfab7",
+   "source": "pack"
+  },
+  "sprites/hud/food_full_hunger.png": {
+   "bytes": 187,
+   "sha256": "dc8292d8801494df39c7d755ee72650b47d588d5ca04e19df2e96583ac68ffa9",
+   "source": "pack"
+  },
+  "sprites/hud/food_half.png": {
+   "bytes": 10765,
+   "sha256": "72396ea37c485315b04a2435b2295083ade11722f48058856bda158133c310b4",
+   "source": "pack"
+  },
+  "sprites/hud/food_half_hunger.png": {
+   "bytes": 209,
+   "sha256": "dd84a4ba6c3befc222ec442072bd47e7fd9f56d48c10d978446a68ce820e5ba4",
+   "source": "pack"
+  },
+  "sprites/hud/heart/absorbing_full.png": {
+   "bytes": 138,
+   "sha256": "b1a7fe402732b17b15a3745db85c74344f8d5da0186427da199fd9691bf2172c",
+   "source": "pack"
+  },
+  "sprites/hud/heart/absorbing_full_blinking.png": {
+   "bytes": 138,
+   "sha256": "b1a7fe402732b17b15a3745db85c74344f8d5da0186427da199fd9691bf2172c",
+   "source": "pack"
+  },
+  "sprites/hud/heart/absorbing_half.png": {
+   "bytes": 130,
+   "sha256": "ea93efe38effc3a20925853cb3f657058745c6aba90d8c4811630b40dcf96c0a",
+   "source": "pack"
+  },
+  "sprites/hud/heart/absorbing_half_blinking.png": {
+   "bytes": 130,
+   "sha256": "ea93efe38effc3a20925853cb3f657058745c6aba90d8c4811630b40dcf96c0a",
+   "source": "pack"
+  },
+  "sprites/hud/heart/absorbing_hardcore_full.png": {
+   "bytes": 137,
+   "sha256": "d333a2ba8db89730f68e021fc3c226cb9817744cf1a11a79ee4336142e7a914d",
+   "source": "pack"
+  },
+  "sprites/hud/heart/absorbing_hardcore_full_blinking.png": {
+   "bytes": 137,
+   "sha256": "d333a2ba8db89730f68e021fc3c226cb9817744cf1a11a79ee4336142e7a914d",
+   "source": "pack"
+  },
+  "sprites/hud/heart/absorbing_hardcore_half.png": {
+   "bytes": 132,
+   "sha256": "ad97962836d86c95be03a045a679f5b0a083c9578fce51853e493f1e8abb9602",
+   "source": "pack"
+  },
+  "sprites/hud/heart/absorbing_hardcore_half_blinking.png": {
+   "bytes": 132,
+   "sha256": "ad97962836d86c95be03a045a679f5b0a083c9578fce51853e493f1e8abb9602",
+   "source": "pack"
+  },
+  "sprites/hud/heart/container.png": {
+   "bytes": 125,
+   "sha256": "7c988aee6e192ed4a7f05d20a006e31aa97928708d0d2e00fee0276b8bd4499b",
+   "source": "pack"
+  },
+  "sprites/hud/heart/container_blinking.png": {
+   "bytes": 125,
+   "sha256": "7c988aee6e192ed4a7f05d20a006e31aa97928708d0d2e00fee0276b8bd4499b",
+   "source": "pack"
+  },
+  "sprites/hud/heart/container_hardcore.png": {
+   "bytes": 125,
+   "sha256": "7c988aee6e192ed4a7f05d20a006e31aa97928708d0d2e00fee0276b8bd4499b",
+   "source": "pack"
+  },
+  "sprites/hud/heart/container_hardcore_blinking.png": {
+   "bytes": 125,
+   "sha256": "7c988aee6e192ed4a7f05d20a006e31aa97928708d0d2e00fee0276b8bd4499b",
+   "source": "pack"
+  },
+  "sprites/hud/heart/frozen_full.png": {
+   "bytes": 164,
+   "sha256": "c9f27161efc2777d8fe390a11daa1ac77f2b00f5a731435e5d0ffb52731322f6",
+   "source": "pack"
+  },
+  "sprites/hud/heart/frozen_full_blinking.png": {
+   "bytes": 164,
+   "sha256": "c9f27161efc2777d8fe390a11daa1ac77f2b00f5a731435e5d0ffb52731322f6",
+   "source": "pack"
+  },
+  "sprites/hud/heart/frozen_half.png": {
+   "bytes": 149,
+   "sha256": "439f1811e76a61964db231a6221d59ed9d272da6e0cd8fe9ae69a6fb7fe8c445",
+   "source": "pack"
+  },
+  "sprites/hud/heart/frozen_half_blinking.png": {
+   "bytes": 149,
+   "sha256": "439f1811e76a61964db231a6221d59ed9d272da6e0cd8fe9ae69a6fb7fe8c445",
+   "source": "pack"
+  },
+  "sprites/hud/heart/frozen_hardcore_full.png": {
+   "bytes": 168,
+   "sha256": "973837270f808614813b4edfa73556ad639e87e83b074ad88062992e5e2cba8f",
+   "source": "pack"
+  },
+  "sprites/hud/heart/frozen_hardcore_full_blinking.png": {
+   "bytes": 168,
+   "sha256": "973837270f808614813b4edfa73556ad639e87e83b074ad88062992e5e2cba8f",
+   "source": "pack"
+  },
+  "sprites/hud/heart/frozen_hardcore_half.png": {
+   "bytes": 152,
+   "sha256": "70dc6aa77f1eab45552c11bbc1158b6d7aaff1109df614b6587c2708beb66812",
+   "source": "pack"
+  },
+  "sprites/hud/heart/frozen_hardcore_half_blinking.png": {
+   "bytes": 152,
+   "sha256": "70dc6aa77f1eab45552c11bbc1158b6d7aaff1109df614b6587c2708beb66812",
+   "source": "pack"
+  },
+  "sprites/hud/heart/full.png": {
+   "bytes": 137,
+   "sha256": "1c5ea4b7442a0aa1e1d1a45507de4f49cb0f47c3af168b60acd84b16e15ffe07",
+   "source": "pack"
+  },
+  "sprites/hud/heart/full_blinking.png": {
+   "bytes": 137,
+   "sha256": "1c5ea4b7442a0aa1e1d1a45507de4f49cb0f47c3af168b60acd84b16e15ffe07",
+   "source": "pack"
+  },
+  "sprites/hud/heart/half.png": {
+   "bytes": 130,
+   "sha256": "a21fedb4fd945c7baa225ecdd6ab38681dcb639d8a52eedb821c7aa048a93a43",
+   "source": "pack"
+  },
+  "sprites/hud/heart/half_blinking.png": {
+   "bytes": 130,
+   "sha256": "a21fedb4fd945c7baa225ecdd6ab38681dcb639d8a52eedb821c7aa048a93a43",
+   "source": "pack"
+  },
+  "sprites/hud/heart/hardcore_full.png": {
+   "bytes": 136,
+   "sha256": "f79fe0fda9bbc55bcaac1f8cc52a8e43e8b6cb0057c318236ae2f1be280478d2",
+   "source": "pack"
+  },
+  "sprites/hud/heart/hardcore_full_blinking.png": {
+   "bytes": 136,
+   "sha256": "f79fe0fda9bbc55bcaac1f8cc52a8e43e8b6cb0057c318236ae2f1be280478d2",
+   "source": "pack"
+  },
+  "sprites/hud/heart/hardcore_half.png": {
+   "bytes": 131,
+   "sha256": "3d297ef6cdf725a73a57505f205f4aa6341af5a8b52e6b682210849428de4a98",
+   "source": "pack"
+  },
+  "sprites/hud/heart/hardcore_half_blinking.png": {
+   "bytes": 131,
+   "sha256": "3d297ef6cdf725a73a57505f205f4aa6341af5a8b52e6b682210849428de4a98",
+   "source": "pack"
+  },
+  "sprites/hud/heart/poisoned_full.png": {
+   "bytes": 137,
+   "sha256": "26137d3086bce873386b5728fce119fc25ee7f7bc95efa2ceb2245ee0c9864ac",
+   "source": "pack"
+  },
+  "sprites/hud/heart/poisoned_full_blinking.png": {
+   "bytes": 137,
+   "sha256": "26137d3086bce873386b5728fce119fc25ee7f7bc95efa2ceb2245ee0c9864ac",
+   "source": "pack"
+  },
+  "sprites/hud/heart/poisoned_half.png": {
+   "bytes": 130,
+   "sha256": "f335b659a53046d1beb4136f7997458fe0d6345aff54104e829900002b0284ac",
+   "source": "pack"
+  },
+  "sprites/hud/heart/poisoned_half_blinking.png": {
+   "bytes": 130,
+   "sha256": "f335b659a53046d1beb4136f7997458fe0d6345aff54104e829900002b0284ac",
+   "source": "pack"
+  },
+  "sprites/hud/heart/poisoned_hardcore_full.png": {
+   "bytes": 136,
+   "sha256": "d25b32b4a1c23912f85ee5fc068669ee27c8d20fad6cfa7d3982348c326ddfdd",
+   "source": "pack"
+  },
+  "sprites/hud/heart/poisoned_hardcore_full_blinking.png": {
+   "bytes": 136,
+   "sha256": "d25b32b4a1c23912f85ee5fc068669ee27c8d20fad6cfa7d3982348c326ddfdd",
+   "source": "pack"
+  },
+  "sprites/hud/heart/poisoned_hardcore_half.png": {
+   "bytes": 131,
+   "sha256": "0d2cf1ea902aa92b40a2d96df83efed829597e101fc5e0ae23cb7c2855295dde",
+   "source": "pack"
+  },
+  "sprites/hud/heart/poisoned_hardcore_half_blinking.png": {
+   "bytes": 131,
+   "sha256": "0d2cf1ea902aa92b40a2d96df83efed829597e101fc5e0ae23cb7c2855295dde",
+   "source": "pack"
+  },
+  "sprites/hud/heart/vehicle_container.png": {
+   "bytes": 132,
+   "sha256": "4733ec2dc8caabb64919aca9d9c5e48d4a5edb73729dab531cbc271fec28e661",
+   "source": "pack"
+  },
+  "sprites/hud/heart/vehicle_full.png": {
+   "bytes": 144,
+   "sha256": "66253d19ec923ea707b084dbe63061d03a3d8bab843dcf0a308185db0752b602",
+   "source": "pack"
+  },
+  "sprites/hud/heart/vehicle_half.png": {
+   "bytes": 131,
+   "sha256": "bec77f84fd437eabe468b5c2f48155c89575d85ceebfe1ffb86334d54ab41066",
+   "source": "pack"
+  },
+  "sprites/hud/heart/withered_full.png": {
+   "bytes": 151,
+   "sha256": "b3210f5d3c3e25072e68d73be3233f87313c13c09a483308ac738d59943018f2",
+   "source": "pack"
+  },
+  "sprites/hud/heart/withered_full_blinking.png": {
+   "bytes": 170,
+   "sha256": "4f2b8f9c64b751d5e7c8733a297d12e1cb63d3a3e7de79196e8c46e86ef0523a",
+   "source": "pack"
+  },
+  "sprites/hud/heart/withered_half.png": {
+   "bytes": 166,
+   "sha256": "55cf044c7ec8330de0e31138109b9bf836db34b508ef30bb930b69d5f7ef248f",
+   "source": "pack"
+  },
+  "sprites/hud/heart/withered_half_blinking.png": {
+   "bytes": 166,
+   "sha256": "55cf044c7ec8330de0e31138109b9bf836db34b508ef30bb930b69d5f7ef248f",
+   "source": "pack"
+  },
+  "sprites/hud/heart/withered_hardcore_full.png": {
+   "bytes": 171,
+   "sha256": "2c2a455401e48438b7bd4584f219a41df225662dd762b6a47b41d01cc49868c7",
+   "source": "pack"
+  },
+  "sprites/hud/heart/withered_hardcore_full_blinking.png": {
+   "bytes": 166,
+   "sha256": "b1ac7f9d1e820f03dcfceede7eebf7bb1c22a52627bfaee7d49e96fc82cbe4d0",
+   "source": "pack"
+  },
+  "sprites/hud/heart/withered_hardcore_half.png": {
+   "bytes": 159,
+   "sha256": "823b038dfc2e685aff653f8c9ca325b3375bc54249b83364784fd91ab7f75724",
+   "source": "pack"
+  },
+  "sprites/hud/heart/withered_hardcore_half_blinking.png": {
+   "bytes": 159,
+   "sha256": "823b038dfc2e685aff653f8c9ca325b3375bc54249b83364784fd91ab7f75724",
+   "source": "pack"
+  },
+  "sprites/hud/hotbar.png": {
+   "bytes": 581,
+   "sha256": "bc2b23b3640012bad4d49dd1f0b78ce60c46b15093124ffbf658a8660ab6c2ab",
+   "source": "pack"
+  },
+  "sprites/hud/hotbar_attack_indicator_background.png": {
+   "bytes": 202,
+   "sha256": "49acaedc2cf1d5a0658d06ce8fe812ecb8c4f333ef11a74ae1b0b1242a1e2826",
+   "source": "pack"
+  },
+  "sprites/hud/hotbar_attack_indicator_progress.png": {
+   "bytes": 292,
+   "sha256": "7ca79f5fdc569033ef157c9583b7d49925904972c91d3fbbd3c0fb168f47f8b1",
+   "source": "pack"
+  },
+  "sprites/hud/hotbar_offhand_left.png": {
+   "bytes": 322,
+   "sha256": "a33241e92d3bf7bc5f732dff143843d07157ddb115198fbd7e9aa5e1d47627a1",
+   "source": "pack"
+  },
+  "sprites/hud/hotbar_offhand_right.png": {
+   "bytes": 323,
+   "sha256": "aec5f8e979044dbfeae1684d1fde78a376ac10d504cf44d2b42dbd5bfaf9defb",
+   "source": "pack"
+  },
+  "sprites/hud/hotbar_selection.png": {
+   "bytes": 271,
+   "sha256": "686fe35dba238ea72e1d829458bedc739a9de5c67fcb6a486cbd0d6ce0512a1d",
+   "source": "pack"
+  },
+  "sprites/hud/jump_bar_background.png": {
+   "bytes": 199,
+   "sha256": "0212ea6c5a5a1ca5b35f32cfb182280e959b3707cbdf0e576f3638f0c5dc292f",
+   "source": "pack"
+  },
+  "sprites/hud/jump_bar_cooldown.png": {
+   "bytes": 164,
+   "sha256": "892745734436b04c5e7d47cff5f127dc13a41b861f8d4e982395fa7e3f6771ee",
+   "source": "pack"
+  },
+  "sprites/hud/jump_bar_progress.png": {
+   "bytes": 216,
+   "sha256": "a748d75a1fb02cf4376e299a2ab72fed2239088e8d2b90088e79dd51a776d9a6",
+   "source": "pack"
+  },
+  "sprites/hud/locator_bar_arrow_down.png": {
+   "bytes": 86,
+   "sha256": "4488ab27a884a29e27240a4e0ffa31e024c7c3cd3d97ba182df578362c1d892c",
+   "source": "free"
+  },
+  "sprites/hud/locator_bar_arrow_up.png": {
+   "bytes": 93,
+   "sha256": "059d251a28697142fb64c86b112cb6dfc80a9e1ef89678a607b66a04d0097bca",
+   "source": "free"
+  },
+  "sprites/hud/locator_bar_background.png": {
+   "bytes": 89,
+   "sha256": "174dbf76ec13a6c6e62d2a29cbabc569997eae4214781d7c73f8c825a1d54fcb",
+   "source": "free"
+  },
+  "sprites/hud/locator_bar_dot/bowtie.png": {
+   "bytes": 91,
+   "sha256": "8e10812de4aebaa9033db7d187d1f95e96abe0bc8335205c359f1496d36a50fc",
+   "source": "free"
+  },
+  "sprites/hud/locator_bar_dot/default_0.png": {
+   "bytes": 100,
+   "sha256": "b852e0146075a4309556f3ccda90f95be0d924f556ab71e8249478bdea857e6c",
+   "source": "free"
+  },
+  "sprites/hud/locator_bar_dot/default_1.png": {
+   "bytes": 90,
+   "sha256": "51cbb8d3ec1404d7a2d19cd7edc8549b903ca6d652ce4a0f62ff15d8f5387be9",
+   "source": "free"
+  },
+  "sprites/hud/locator_bar_dot/default_2.png": {
+   "bytes": 83,
+   "sha256": "771d23c30a4feb4f6752772e69232fead4adf5bd28215ffa00d3e75540c80bd9",
+   "source": "free"
+  },
+  "sprites/hud/locator_bar_dot/default_3.png": {
+   "bytes": 85,
+   "sha256": "612f3008befdbb2658b6cf9d804f1da2f7a200908e3f7da8ed99013f3d207728",
+   "source": "free"
+  },
+  "sprites/widget/button.png": {
+   "bytes": 537,
+   "sha256": "4254a172d7c5af8e0893fae532dd0c530c2a9be4146bbc2502ee9e45b7d8be58",
+   "source": "pack"
+  },
+  "sprites/widget/button_disabled.png": {
+   "bytes": 523,
+   "sha256": "7e6f47d91b81cacff70d16fa4a84d8d48bfc57cf5cd31ae8b271fc8de3845a3c",
+   "source": "pack"
+  },
+  "sprites/widget/button_highlighted.png": {
+   "bytes": 532,
+   "sha256": "edcd1c5dc4f542d5703330b8c2a02c97791b88a1756bb203a9c43f450bc23dbd",
+   "source": "pack"
+  },
+  "underwater.png": {
+   "bytes": 3075,
+   "sha256": "c29085342d1d2983f0274fa832c083fa0b4465d6173b5a73eaf4df8f665f1980",
+   "source": "pack"
+  },
+  "vignette.png": {
+   "bytes": 11169,
+   "sha256": "ac3bec141dc515e18dd5d57d4fd0ea28b781036be44d757238147d7988b53744",
+   "source": "free"
+  }
+ },
+ "jar": {
+  "path": "/Users/ori/Library/Application Support/minecraft/versions/26.2/26.2.jar",
+  "sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754"
+ },
+ "pack": {
+  "path": "/Users/ori/mineshaft-assets/target/assets-cache/vox-pack.zip",
+  "sha256": "b51fd0b9b0bf1f0f22448e2d227a903c880f2af678474ec212088b736d8a0da2"
+ }
+}
